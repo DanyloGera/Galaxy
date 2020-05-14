@@ -1,0 +1,113 @@
+body {
+margin: 0;
+padding-top: 50px;
+
+  width: 100%;
+}
+
+.nav {
+height: 50px;
+position: fixed;
+top: 0;
+z-index: 1;
+width: 100%;
+background-color: #000;
+text-align: center;
+padding: 10px;
+
+font-weight: 600;
+}
+.name {
+  display: block;
+  color: #fff
+}
+header {
+ width: 100%;
+ height: 400px;
+  background-image: url('https://www.universetoday.com/wp-content/uploads/2013/10/milky_way.jpg');
+  background-size: contain;
+text-align: center;
+padding-top: 40px;
+
+}
+.title {
+  display: table;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 10px;
+  background-image: url(https://thumbs.gfycat.com/DamagedUnfortunateAmericanbadger-size_restricted.gif);
+  color: #fff;
+}
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: row;
+  margin: 0 auto;
+  justify-content: space-around;
+
+}
+.card {
+  height: 760px;
+  width: 50%;
+  text-align: left;
+  background-image: url(https://thumbs.gfycat.com/DamagedUnfortunateAmericanbadger-size_restricted.gif);
+  background-size: cover;
+  transition: background-image 0.5s ease-out;
+}
+
+.image {
+  width: 100%;
+    height: 760px;
+}
+
+
+.information {
+  font-family: 'Righteous', cursive;
+  font-size: 20pt;
+  color: #fff;
+  text-align: justify;
+  padding-right: 45px;
+  margin-top: -10px;
+
+
+}
+.caption {
+  font-family: 'Righteous', cursive;
+  font-size: 20pt;
+  color: #fff;
+}
+footer {
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+  height: 55px;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 16pt;
+}
+
+
+
+.image-relative {
+  position: relative;
+}
+.imagen-relative:hover .overlay {
+  display: flex;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.overlay h2 {
+  text-align: center;
+  color: #fff !important;
+}
