@@ -91,7 +91,7 @@ footer {
 
 .image-relative {
   position: relative;
- transition: display 0.5s ease-out;
+ transition: display 1s ease-out;
 }
 .image-relative:hover .overlay {
   display: flex;
