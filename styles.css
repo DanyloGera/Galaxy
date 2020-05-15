@@ -92,7 +92,7 @@ footer {
 .image-relative {
   position: relative;
 }
-.imagen-relative:hover .overlay {
+.image-relative:hover .overlay {
   display: flex;
 }
 .overlay {
