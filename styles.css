@@ -92,6 +92,9 @@ footer {
 .image-relative {
   position: relative;
 }
+.image-transition{
+  transition: display 1s ease-out;
+}
 .image-relative:hover .overlay {
   display: flex;
 }
@@ -106,8 +109,10 @@ footer {
   justify-content: center;
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
+  transition: display 1s ease-out;
 }
 .overlay h2 {
   text-align: center;
   color: #fff !important;
+  transition: display 1s ease-out;
 }
